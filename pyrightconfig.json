@@ -1,0 +1,13 @@
+{
+  "include": ["."],
+  "venvPath": "/home/nick/.virtualenvs",
+  "venv": "PCOOK",
+  "typeCheckingMode": "basic",
+
+  "extraPaths": ["./lib"],
+
+  "reportMissingImports": true,
+  "reportMissingModuleSource": "warning",
+  "reportUnusedImport": "warning",
+  "reportUnusedVariable": "warning"
+}

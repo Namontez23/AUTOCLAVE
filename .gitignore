@@ -1,0 +1,58 @@
+# --- Python / MicroPython ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.mpy
+
+.mypy_cache/
+.pytest_cache/
+
+# --- Virtualenvs ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Build & dist artifacts (C / CMake / ESP32) ---
+build/
+dist/
+*.o
+*.a
+*.elf
+*.bin
+*.map
+
+# --- Dump & backup files from tools/dump_for_chat.sh ---
+backups/
+_dump_for_chat.txt
+
+# --- Office / binary docs (usually not great in Git) ---
+*.ods
+*.odt
+*.xlsx
+*.xls
+
+# --- Logs & temp ---
+*.log
+*.tmp
+*~
+*.swp
+
+# --- Obsolete scratch area ---
+obsolete/
+
+# --- IDE / editor cruft ---
+
+# JetBrains
+.idea/
+
+# VS Code: ignore everything except the config we *want* tracked
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
